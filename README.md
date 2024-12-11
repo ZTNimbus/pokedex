@@ -1,8 +1,12 @@
-# React + Vite
+POKéDEX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an encyclopedia app that allows you to search your favorite Pokémon(Only the first 151).
 
-Currently, two official plugins are available:
+You can select the Pokémon to display their appearance, stats and moves with their descriptions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+FantaCSS for styling
+PokéAPI for Pokémon data
+localStorage for caching
+
+A bug is present where the localStorage runs out of quota, resulting in a crash after caching many Pokémon.
+This bug will be fixed in short notice.
