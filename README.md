@@ -1,12 +1,58 @@
-POKéDEX
+# Pokedex
 
-This is an encyclopedia app that allows you to search your favorite Pokémon(Only the first 151).
+## Overview
+This **Pokédex** application allows users to explore Pokémon data from the first generation (151 Pokémon). Built with **React**, it fetches data dynamically and displays stats, moves, and descriptions. **LocalStorage** is used for caching results, improving performance.
 
-You can select the Pokémon to display their appearance, stats and moves with their descriptions.
+---
 
-FantaCSS for styling
-PokéAPI for Pokémon data
-localStorage for caching
+## Features
+✅ Search Pokémon by name or ID  
+✅ View detailed stats, moves, and appearance  
+✅ LocalStorage caching for quick access  
+🎨 Styled with **FantaCSS**
 
-A bug is present where the localStorage runs out of quota, resulting in a crash after caching many Pokémon.
-This bug will be fixed in short notice.
+---
+
+## Tech Stack
+- React.js  
+- PokéAPI  
+- JavaScript (ES6+)  
+- LocalStorage
+
+---
+
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ZTNimbus/pokedex.git
+   cd pokedex
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the app:
+   ```bash
+   npm run dev
+   ```
+4. Open in your browser: `http://localhost:5173`
+
+---
+
+## Known Issues
+⚠️ **LocalStorage Quota Limit**: When caching many Pokémon, the app may crash due to exceeded storage capacity. Fix incoming.
+
+---
+
+## Future Enhancements
+- Optimize localStorage usage
+- Add filtering options (types, abilities)
+
+---
+
+## Contributing
+Contributions are welcome. Fork the repo, make your changes, and submit a PR.
+
+---
+
+🔗 **Repo**: [Pokedex on GitHub](https://github.com/ZTNimbus/pokedex)
